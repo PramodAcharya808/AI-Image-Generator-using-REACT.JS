@@ -1,10 +1,12 @@
 import React from "react";
 import Heading from "./components/Heading";
+import MainScreen from "./Layouts/MainScreen";
 
 const App = () => {
   return (
     <>
-      <Heading></Heading>
+      <MainScreen></MainScreen>
+      {/* <Heading></Heading> */}
     </>
   );
 };
